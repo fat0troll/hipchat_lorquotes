@@ -1,4 +1,5 @@
-require "hipchat_lorquotes/version"
+lib = File.expand_path('..', __FILE__)
+require "#{lib}/hipchat_lorquotes/version"
 
 module HipchatLorquotes
   require 'hipchat'
